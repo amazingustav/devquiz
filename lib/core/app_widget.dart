@@ -1,3 +1,4 @@
+import 'package:dev_quiz/splash/splash_page.dart';
 import 'package:flutter/material.dart';
 
 class AppWidget extends StatelessWidget {
@@ -5,30 +6,7 @@ class AppWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "DevQuiz",
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text("Dev Quiz"),
-        ),
-        body: Center(
-          child: Container(
-            decoration: BoxDecoration(
-              color: Colors.purple,
-              borderRadius: BorderRadius.circular(10),
-            ),
-            child: Text(
-              "E ai, amazing!",
-              style: TextStyle(
-                fontSize: 30,
-                color: Colors.white,
-              ),
-            ),
-          ),
-        ),
-        floatingActionButton: FloatingActionButton(
-          onPressed: () {},
-          child: Icon(Icons.add),
-        ),
-      ),
+      home: SplashPage(),
     );
   }
 }
