@@ -1,5 +1,5 @@
 name: dev_quiz
-description: DevQuiz - Gabul DEV
+description: Just an app built to help you learn Flutter through quiz puzzles.
 version: 1.0.0+1
 
 environment:
