@@ -8,7 +8,7 @@ class LevelButtonWidget extends StatelessWidget {
   LevelButtonWidget({
     Key? key,
     required this.label,
-  })  : assert(["Fácil", "Médio", "Difícil", "Perito"].contains(label)),
+  })  : assert(                            ["Fácil", "Médio", "Difícil", "Perito"].contains(label)),
         super(key: key);
 
   final config = {
